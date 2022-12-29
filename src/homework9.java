@@ -1,10 +1,10 @@
 import java.util.Random;
 
-public class homework9 {
+public class Homework9 {
     public static void main(String[] args) {
         int[] arrTeamOne = new int[25];
         int[] arrTeamTwo = new int[25];
-        int sum = 0;
+        int sum =0;
         Random random = new Random();
 
         for (int i = 0; i < arrTeamOne.length; i++ ){
