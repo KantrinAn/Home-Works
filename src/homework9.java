@@ -5,7 +5,7 @@ public class Homework9 {
         int[] arrTeamOne = new int[25];
         int[] arrTeamTwo = new int[25];
         int sum =0;
-        Random random = new Random();
+
 
         for (int i = 0; i < arrTeamOne.length; i++ ){
             arrTeamOne[i] = (int)(Math.random() * 18 + 22);
@@ -20,7 +20,7 @@ public class Homework9 {
             sum += arrTeamOne[i];
 
         }
-        int averageAgeTeamOne = sum / arrTeamOne.length;
+        int averageAgeTeamOne = sum/ arrTeamOne.length;
         System.out.println();
 
         for (int j = 0; j< arrTeamTwo.length; j++){
